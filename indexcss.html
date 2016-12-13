@@ -1,0 +1,371 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="veiwport" content="width-device-width, initial-scale=1">
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="untitled folder/style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+	<script
+src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script
+src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->	
+
+
+<title>WEB DEVELOPMENT</title>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+</head>
+
+<body style="padding-top: 50px">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	<a class="navbar-brand" href="#"><span class="title">ICS3U</span></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+     
+      <ul class="nav navbar-nav navbar-right">
+		  <li clas="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index2.html">Bootstrap</a></li>
+            <li><a href="index3.html">The Command Line</a></li>
+            <li><a href="index4.html">Hosts and Editors</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="index5.html">Launching a Website</a></li>
+          </ul>
+        </li>
+		  <li><a href="index6.html">Project Info</a></li>
+		  <li><a href="index7.html">Maya Hinds</a></li>
+     
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<h2 class="heading">Cascading Style Sheets</h2>
+<div class="info">
+  <p class="height">Cascading Style Sheets (CSS) is a style sheet language that <em>describes how an HTML files should look/appear to the user</em>. CSS was first proposed in October 1994 by Håkon Wium Lie, and was published two years later in December 1996.</p>
+		<div class="img">
+	<img src="untitled folder/images/img/cssintro.jpg" width="468" height="277" alt=""/>
+	</div>
+</div>
+
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>Connecting CSS to HTML</h4>
+  <p class="height">CSS files are linked to HTML files using the HTML Link Element. You do this by putting a &lt;link&gt; tag between the &lt;head&gt;&lt;/head&gt; tags of your HTML page. Your &lt;link&gt; must include these three attributes:
+  <ul class="ul">
+			<li>A type attribute that should always be equal to "text/css". This tells the computer that you are linking your html file to a css file</li>
+			<li>The rel attribute specifies the relationship between the current document and the linked document. Your css is the html file's "stylesheet"</li>
+			<li>A href attribute that should point to the web address of your CSS file</li>
+  </ul>
+</p>
+	<p><pre>&lt;link type="text/css" rel="stylesheet" href="stylesheet.css"/&gt;</pre></p>
+</div>	
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>CSS Syntax</h4>
+  <p class="height">
+  <ol class="ul">
+			<li><strong>Selector:</strong> Any HTML element that you intend to style, such as &lt;p&gt;, &lt;img&gt;, or &lt;div&gt;</li>
+			<li><strong>Property:</strong> An aspect (color, size, type, etc.) of a selector. </li>
+			<li><strong>Value:</strong> A possible property setting. (a specified color, font, size, etc.) Each property-value is ended with a semicolon (;)</li>
+  </ol></p>
+  
+  <div class="img">
+	<img src="untitled folder/images/img/cssselector.jpg" width="390" height="232" alt=""/>
+	</div>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Hexadecimal Values</h4>
+<div class="info">
+  <p class="height">CSS comes equipped with over 140 named colours, such as red or blue. In addition to those basic colors, Developers can be even more specific in their color choices using <strong>Hexidecimal Values</strong>: Hexadecimal counting is base-16. Each digit can be the numbers 0 through 9 or the letters a through f. Hex values always start with a pound sign (#), are up to six "digits" long, and are case-insensitive.</p>
+  <p class ="height"> Each Hexadecimal value represents mixtures of red, green and blue. <p><pre id="red">#RRGGBB
+  Red: #FF0000 
+  </pre></p>
+ </p>
+	<p class="height">You can simply search for "hex color palette" or "hex color picker" to find a bunch of options. I used <a href="http://htmlcolorcodes.com/"> this </a>one!</p>
+  <div class="img">
+	<img src="untitled folder/images/img/colors.jpg" width="468" height="260" alt=""/>
+  </div>
+	</div>
+
+<h4 class="heading">RGB Colors</h4>
+<div class="info">
+	<p class="height">RGB (Red, Green, Blue) colors, similar to Hexidecimal colors, are created by three numbers (up to 256) representing red, green, and blue. When mixed together, the three values create a specific color. 
+	<p><pre id="purple"> Purple: rgb(128,0,128)</pre></p></p>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Sizing in CSS</h4>
+<div class="info">
+	<p class="height"><strong>Pixels (px)</strong> are dots on your computer screen. Specifying font sizes in pixels allows you to see exactly on their screen what you created on yours, which can be problematic as it assumes your screens are of similar size when they may not be.
+	<p><pre> what it look like on computer = what it will look like on website</pre></p></p>
+		
+	<p class="height">A solution to this problem is <strong>Ems</strong>; One em is equal to the default font size on whatever screen the user is using, this means it will adjust size depensing on the size of the screen used
+	<p><pre> what it look like on computer != what is will look like on website</pre></p></p>
+</div>
+
+<div class="space"></div>
+
+<h3 class="heading">CSS Properties</h3>
+<div class="info">
+	<p class="height"><strong>Border:</strong> The border property creates a border around the selected HTML Element, and supports several values. For example, for a  border 2 pixels thick, solid, and red, you would type;</p> 
+	<p><pre id="border"> selector {
+				border 2px red solid;  
+	}</pre></p>
+	
+	<p class="height"><strong>Font-Family:</strong> Allows developer to change font of text. You can place mutiple font families as backup, the computer will default to the first, and the others will be be used as backup</p> 
+	<p><pre id="font"> selector {
+				    font-family: papyrus, Courier;  
+	}</pre></p>
+	
+  <p class="height"><strong>Font-size:</strong> Allows developer to change size of font. Meaured in pixels or ems</p> 
+	<p><pre id="size"> selector {
+				font-size: 20px;  
+	}</pre></p>
+</div>
+	
+	
+<div class="space"></div>
+<div class="space"></div>
+
+<h3 class="heading">CSS Selectors</h3>
+<div class="info">
+
+<p><pre>&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;First Heading&lt;/h1&gt;
+			&lt;div id="first"&gt;
+			 &lt;div&gt;
+					&lt;p&gt;First Paragraph&lt;/p&gt;
+					&lt;p&gt;Second Paragraph&lt;/p&gt;
+				&lt;p class="class"&gt;Third Paragraph&lt;/p&gt;
+			    &lt;/div&gt;
+			&lt;/div&gt;
+	&lt;/body&gt;</pre></p>
+	
+	<p class="height"><strong>Nested Selectors</strong>: You can apply a value to certain CSS elements by listing everything it is in:</p>
+	<p><pre> div div p {
+				property: value;  
+	}</pre></p>
+	
+	<p class="height"><strong>Universal Selector (*)</strong>: Allows you to apply a certain CSS to every element on the page:</p>
+	<p><pre> * {
+				property: value;  
+	}</pre></p>
+	
+	<p class="height"><strong>Direct Children</strong>: You can grab direct children (an element that is directly nested inside another element with no elements in between) by using the &gt; symbol:</p>
+	<p><pre>
+	div &gt; p {
+				property: value;  
+	}</pre></p>
+	
+	<div class="space"></div>
+	
+	<p class="height"><strong>Classes</strong>: allow you to take elements of different types and give them the same styling. Classes are assigned to HTML elements with the word class and an equals sign:</p>
+	<p><pre>        &lt;div class="class"&gt;&lt;/div&gt; 
+	&lt;img class="class"/&gt;</pre></p>
+	<p class="height"><strong>Classes</strong> are identified in CSS with a dot (.):</p>
+	<p><pre>
+	.class {
+				property: value;  
+	}</pre></p>
+	
+	<div class="space"></div>
+	
+	<p class="height"><strong>IDs</strong>: allow you to apply style to a single instance of a selector, rather than all instances. Id’s are assigned to HTML elements with the word id and an equals sign:</p>
+	<p><pre>&lt;div id="first"&gt;&lt;/div&gt;</pre></p>
+	<p class="height"><strong>IDs</strong> are identified in CSS with a pound sign (#):</p>
+	<p><pre>
+	#first {
+				property: value;  
+	}</pre></p>
+	
+<div class="space"></div>
+
+<p class="height"><strong>Pseudo-Class Selectors</strong>: allow you to control the appearance of unvisited and visited links:
+<ul class="ul">
+			<li><strong>a:link</strong>: An unvisited link</li>
+			<li><strong>a:visited</strong>: A visited link</li>
+			<li><strong>a:hover</strong>: A link you're hovering your mouse over</li>
+</ul></p>
+	<p><pre>
+	selector:pseudo-class_selector {
+				property: value;  
+	}</pre></p>
+	
+	<p class="height"><strong>First-Child</strong>: is used to apply styling to only the elements that are the first children of their parents:</p>
+	<p><pre>
+	p:first-child(2) {
+				property: value;  
+	}</pre></p>
+	
+	<p class="height"><strong>Nth-Child</strong>: is used to apply styling to any child of an element after the first child; you just add the child's number in parentheses after the pseudo-class selector:
+</p>
+	<p><pre>
+	p:nth-child(2) {
+				property: value;  
+	}</pre></p>
+</div>
+	
+<div class="space"></div>
+
+<h3 class="heading">Positioning HTML Elements With CSS</h3>
+<div class="info">
+	<p class="height">Each HTML element is like a tiny box or container that holds the pictures and text you specify.
+	<ul class="ul">
+			<li><strong>block</strong>: This makes the element a block box. It won't let anything sit next to it on the page! It takes up the full width.</li>
+			<li><strong>inline</strong>: This makes the element sit on the same line as another element, but without formatting it like a block. It only takes up as much width as it needs (not the whole line).</li>
+			<li><strong>none</strong>: This makes the element and its content disappear from the page entirely</li>
+	</ul></p>
+	<div class="img">
+	<img src="untitled folder/images/img/inlineelements.jpg" width="468" height="275" alt=""/>
+	</div>
+</div>
+
+<div class="space"></div>
+
+<div class="info">
+ <div class="img">
+	<img src="untitled folder/images/img/positioningcss.jpg" width="405" height="322" alt=""/>
+	</div>
+<div class="space"></div>
+  <p class="height">The <strong>margin</strong> is the space around an element. We can adjust the margin to move our HTML elements closer to or farther from each other. If you want to specify a particular margin, you can do it like this:
+	<pre>
+	selector {
+				margin-top: value;  
+				margin-right: value;
+				margin-bottom: value;
+				margin-left: value;
+	}</pre></p>
+	
+	<p class="height">Margins can also be set all at once: you just start from the top margin and go around clockwise (going from top to right to bottom to left). For instance: margin: 1px 2px 3px 4px;</p>
+</div>
+
+
+<div class="info">
+	<p class="height">The <strong>padding</strong> is the spacing between the content and the border. We can adjust this value with CSS to move the border closer to or farther from the content. It is set similarily to the margins, individually or all at once</p>
+</div>
+
+<div class="info">
+	<p class="height">The <strong>border</strong> is the edge of the element. It's what we've been making visible every time we set the border property.
+</p>
+</div>
+
+<div class="info">
+	<p class="height">The <strong>content</strong> is the actual "stuff" in the box. In a &lt;p&gt; element, the "stuff" is the text of the paragraph.
+</p>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Floating</h4>
+<div class="info">
+	<p class="height"><strong>Floating</strong> an element allows you to stack elements
+	<ul class="ul">
+			<li><strong>clear:left;</strong> will immediately move element below any floating elements on the left side of the page.</li>
+			<li><strong>clear:right;</strong> will move element below any floating elements on the right side of the page.</li>
+			<li><strong>clear: both;</strong> will get out of the way of elements floating on the left and right.</li>
+	</ul></p>
+	<p><pre>
+	selector {
+			clear: right, left, or both;
+	}</pre></p>
+</div>
+
+<div class="space"></div>
+
+
+<div class="space"></div>
+
+<h4 class="heading">Z-Index</h4>
+<div class="info">
+	<p class="height">The <strong>Z-index:</strong> a measure of importance: the higher an element's z-index, the higher it will be "stacked" on the page. Just set z-index to the number of importance. </p>
+	<div class="img">
+	<img src="untitled folder/images/img/zindex.jpg" width="500" height="267" alt=""/>
+	</div>
+</div>
+
+
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+<h3 class="heading">Introduction to SASS</h3>
+<div class="info">
+	<p class="height">SASS Stands for <strong>Syntactically Awesome StyleSheets</strong>. SASS is an extension language (programming language interpreter that broadens the original application) for CSS. Sass allows you to write clean, sustainable CSS code and solve common repetition and maintenance challenges present in traditional CSS. </p>
+	<p class="height">Sass can't be directly interpreted by your browser, so it must first be <em>compiled</em> (converted to lower level code so that it can be executed), to CSS before the browser can directly understand it.</p>
+	<div class="img">
+	<img src="untitled folder/images/img/sass.jpg" width="318" height="159" alt=""/>
+	</div>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Start using SASS</h4>
+<div class="info">
+	<p class="height">There are two main ways to start using SASS, you can either download a coding application that uses SASS (such as <a href="http://livereload.com/">LiveReload</a>, <a href="http://hammerformac.com/">Hammer</a>, or <a href="http://livereload.com/">CodeKit</a>), or you can install SASS using the <a href="index3.html">command line</a></p>
+	<p class="height">To install SASS, you will first need to <a href="http://rubyinstaller.org/">install Ruby</a>, as SASS has a Ruby Dependency. You can install Ruby <a href="http://rubyinstaller.org/">here</a> if you are on Windows, but if you have a mac it comes pre-installed. 
+  <ol class="ul">
+		<li><strong>Open your Terminal or Command Prompt.</strong> On the Mac the Terminal.app comes installed by default. It's located in your "Utilities" folder. On Windows, run `cmd`.</li>
+		<li><strong>Install Sass.</strong> Ruby uses Gems to manage its various packages of code like Sass. In your open terminal window type:</li>
+		<p><pre>gem install sass</pre></p>
+	</ol></p>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Preprocessing</h4>
+<div class="info">
+	<p class="height">SASS Allows you to use features that don't exist in CSS yet like <strong>variables</strong> (allow you to store information that you want to reuse throughout your stylesheet), <strong>nesting</strong> (makes code more readable), <strong>mixins</strong> (lets you make groups of CSS declarations that you can reuse throughout your site), and <strong>inheritance</strong> (lets you share a set of CSS properties from one selector to another) among other things.</p>
+<p class="height">SASS is simply a more advanced, professional, style of CSS. Visit their website <a href="http://sass-lang.com/">here</a> for more information</p>
+</div>
+
+<div class="space"></div>
+
+<footer class="footer">
+	<div class="container">
+	<div class="row copyright">
+		<p>Copyright - All Rights Reserved</p>
+	  </div>
+  </div>
+</footer>
+<!-- Latest compiled and minified JavaScript -->
+<script src="ICS3U/js/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="veiwport" content="width-device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="untitled folder/style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+	<script
+src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script
+src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->	
+
+
+<title>WEB DEVELOPMENT</title>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+</head>
+
+<body style="padding-top: 50px">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	<a class="navbar-brand" href="index.html"><span class="title">ICS3U</span></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+     
+      <ul class="nav navbar-nav navbar-right">
+		  <li clas="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index2.html">Bootstrap</a></li>
+            <li><a href="index3.html">The Command Line</a></li>
+            <li><a href="index4.html">Hosts and Editors</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="index5.html">Launching a Website</a></li>
+          </ul>
+        </li>
+		  <li><a href="index6.html">Project Info</a></li>
+		  <li><a href="index7.html">Maya Hinds</a></li>
+     
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<h2 class="heading">Bootstrap</h2>
+<div class="info">
+		<p class="height">Bootstrap is a popular CSS framework with prewritten CSS rules designed to help you build responsive webpages faster. Originally created in 2010 by two web developers at Twitter (Mark Otto and Jacob Thornton). In an effort to encourage consistency, it was released as an open source project in August 2011, and has since become the world’s most popular frontend framework. </p>
+	<p class="height">Another important aspect of Bootstrap is that it's responsive design allows your website to adapt to various screen sizes – mobile, desktop, and everything in between.</p>
+	<div class="img">
+	<img src="untitled folder/images/img/bootstrapintro.jpg" width="468" height="258" alt=""/>
+	</div>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Front End Frameworks</h4>
+<div class="info">
+	<p class="height">Front End Frameworks are simply predefined sets of CSS classes and Javascript functions that a developer is able to quickly and easily connect to. These frameworks help speed up the development process and reduce the room for errors.</p>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Linking to Bootstrap</h4>
+<div class="info">
+  <p class="height">Bootstrap is linked to the HTML file using the HTML Link Element. You do this by putting a &lt;link&gt; tag between the &lt;head&gt;&lt;/head&gt; tags of your HTML page:
+		<pre>&lt;link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"&gt;</pre>
+		You can find optional additions to that code at <a href="http://getbootstrap.com">getbootstrap.com</a></p>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">Bootstrap Grid</h4>
+<div class="info">
+<p class="height">One of the reasons Bootstrap and frameworks like it are so popular is because they offer grids. A grid makes it possible to organize HTML elements using preconfigured columns. Using a grid, you can customize responsive page layouts quickly and reliably.
+The Bootstrap grid contains 12 equal-sized columns. HTML elements are arranged to span different numbers of columns in order to create custom page layouts.</p>
+		<div class="img">
+	<img src="untitled folder/images/img/bootstrapgrid.jpg" width="468" height="367" alt=""/>
+	</div>
+		<p class="height"><ul class="ul">
+			<li>Bootstrap's grid columns are represented by 12 vertical bars. The boxes represent HTML elements.</li>
+			<li>The words "container", "jumbotron", "col-sm-6" and "col-sm-3" refer to Bootstrap classes</li>
+			<li>The element with class "jumbotron" spans the entire width of the webpage, beyond the borders of the grid. </li>
+			<li>Elements inside the second "container", such as "col-sm-6" and "col-sm-3" are contained within the grid columns. </li>
+			<li>Elements labeled "col-sm-3" take up three grid columns; elements labeled "col-sm-6" take up six grid columns.</li>
+  </ul></p>
+</div>
+ 
+<div class="space"></div>
+  
+  <h4 class="heading">Bootstrap Jumbotron</h4>
+  <div class="info"><div class="img">
+	<img src="untitled folder/images/img/bootstrapjumbotron.jpg" width="468" height="249" alt=""/>
+	  </div></div>
+
+<div class="space"></div>
+	
+<div class="info">
+  <p class="height">Many websites have a large showcase area (as shown above) featuring important content. Bootstrap refers to this as a jumbotron. The code for this is shown below:
+		<pre>&lt;section class="jumbotron"&gt;
+  			 &lt;div class="container"&gt;
+    		 			&lt;div class="row text-center"&gt;
+                 ...
+  		  &lt;/div&gt;
+  	&lt;/div&gt;
+ &lt;/section&gt;</pre></p>
+</div>
+
+<div class="space"></div>
+		
+<h4 class="heading">Bootstrap Container</h4>
+<div class="info">
+<p class="height">Containers — .container for fixed width or .container-fluid for full width — center your site’s contents and help align your grid content.</p>
+</div>
+		
+<div class="space"></div>
+
+<h4 class="heading">Bootstrap Columns</h4>
+<div class="info">
+<p class="height">Column classes indicate the number of columns you’d like to use out of the possible 12 per row. So if you want three equal-width columns, you’d use .col-sm-4. Column widths are set in percentages, so they’re always fluid and sized relative to their parent element. Columns have horizontal padding to create the gutters between individual columns.</p>
+<div class="img">
+	<img src="untitled folder/images/img/bootstrapcolumns.jpg" width="468" height="270" alt=""/>
+  </div>
+</div>
+		
+<div class="space"></div>
+
+<div class="space"></div>
+
+<div class="container">
+	<h4>More Information about Bootstrap can be found at <a href="http://getbootstrap.com">getbootstrap.com</a></h4>
+</div>
+	
+<div class="space"></div>
+
+<footer class="footer">
+	<div class="container">
+	<div class="row copyright">
+		<p>Copyright - All Rights Reserved</p>
+		</div>
+	</div>
+</footer>
+<!-- Latest compiled and minified JavaScript -->
+<script src="ICS3U/js/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+
+</script>
+
+</body>
+</html>

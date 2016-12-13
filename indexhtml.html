@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="veiwport" content="width-device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="untitled folder/style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+	<script
+src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script
+src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->	
+
+
+<title>WEB DEVELOPMENT</title>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+</head>
+
+<body style="padding-top: 50px">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	<a class="navbar-brand" href="#"><span class="title">ICS3U</span></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+     
+      <ul class="nav navbar-nav navbar-right">
+		  <li clas="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index2.html">Bootstrap</a></li>
+            <li><a href="index3.html">The Command Line</a></li>
+            <li><a href="index4.html">Hosts and Editors</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="index5.html">Launching a Website</a></li>
+          </ul>
+        </li>
+		  <li><a href="index6.html">Project Info</a></li>
+		  <li><a href="index7.html">Maya Hinds</a></li>
+     
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<h2 class="heading">Hypertext Markup Language</h2>
+<div class="info">
+	<p class="height">First developed by Tim Berners-Lee in 1990; HTML stands for <strong>Hypertext Markup Language</strong>. Where Hypertext means “text with links in it” and a Markup Language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists, and much more. HTML can be seen as the <strong>'skeleton that gives every web page structure'</strong>. Like any language, it has its own special <strong>syntax</strong> (rules for communicating).</p>
+</div>
+<div class="space"></div>
+
+<div class = "info">
+<div class="container">
+	<div class="img">
+	<img src="untitled folder/images/img/htmlintro.jpg" width="600" height="300" alt=""/>
+	</div>
+</div>
+	</div>
+
+<div class="space"></div>
+
+<div class="info">
+	<p class="height"> <strong>Internet browser’s</strong>, such as Chrome, Firefox, Internet Explorer, transform the HTML code into a recognizable webpage. However you must command the browser to do so:
+		<ul class="ul">
+			<li> Always put <strong> &lt;!DOCTYPE html&gt; </strong> on the first line. This tells the browser what language it's reading (in this case, HTML).</li>
+			<li> Always put <strong> &lt;html&gt; </strong> on the next line to start the HTML document.</li>
+			<li>Always put <strong> &lt;/html&gt; </strong> on the last line to end the HTML document.</li>
+		</ul>
+	</p>
+	<p class="height"><em>Everything in your HTML file will go between your two html tags.</em></p>
+	
+<div class="space"></div>
+	
+<div class="info">
+	<h4>Tags</h4>
+	<p class="height">Things inside &lt;&gt;s are called <strong>tags</strong>. Tags nearly <em>always come in pairs: an opening tag (&lt;tag&gt;) and a closing tag (&lt;/tag&gt;)</em>. Whenever you open a tag, you must also close it. Tags also nest, so the most recently opened tag should be the first one closed:</p>
+<p><pre> &lt;firsttag&gt;&lt;secondtag&gt; Your Text &lt;/secondtag&gt; &lt;/firsttag&gt; </pre></p>
+	</div>
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>Two Parts of a HTML File</h4>
+	<p class="height">Inside your &lt;html&gt; tags; there is the Head and the Body. The Head contains information about your HTML file, such as it's links and title. Whereas the Body contains the majority of your visible content:<p>
+<pre>&lt;html&gt;
+  	&lt;head&gt;
+ 	 		&lt;title&gt;&lt;/title&gt;
+  	&lt;/head&gt;
+ 	&lt;body&gt;
+ 		&lt;p&gt;&lt;/p&gt;
+ 	&lt;/body&gt;
+&lt;/html&gt;</pre>
+</p>
+</div>
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>Paragraph Tags</h4>
+	<p class="height">The HTML paragraph element is used to hold one or more sentences. Each paragraph starts with an opening &lt;p&gt; tag, contains written content in the middle, and ends with a closing &lt;/p&gt; tag:</p>
+	<p><pre> &lt;p&gt;Paragraph Text Here&lt;/p&gt;</pre></p>
+</div>
+	
+<div class="space"></div>
+
+<div class="info">
+	<h4>Heading Tags</h4>
+	<p class="height">The HTML Headings element contains emphasized text. There are six heading elements: h1, h2, h3, h4, h5, and h6. h1 being the largest heading and h6 being the smallest.
+</p>
+	<p><pre> &lt;h1&gt;Heading Text Here&lt;/h1&gt;</pre></p>
+</div>	
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>HTML Hyperlinks</h4>
+	<p class="height">You can link your website content to another source using Hyperlinks (links). You link to a website in HTML like this: </p>
+	<p><pre> &lt;a href="https://www.codecademy.com"&gt;Description of link &lt;/a&gt;</pre></p>
+<p class="height">This would show: <a href="https://www.codecademy.com">Description of link</a>. Remember URL (Web Adresses) are formated like this:</p>
+<div class="img">
+	<img src="untitled folder/images/img/link.jpg" width="" height="200" alt=""/>
+	</div>
+</div>
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>HTML Images</h4>
+	<p class="height">To insert an image you tell the tag where to get the picture using src (source code). Every image on the web has its own image URL. Simply right-click on an image and choose "Copy image URL." Paste that URL in quotes after src= to insert it with your &lt;img&gt; tag:</p>
+	<p><pre>&lt;img src="https://imageURL"&gt;</pre></p>
+</div>	
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>HTML Videos</h4>
+  <p class="height">You insert an HTML video much like you would insert an HTML image, however Videos have many more attributes associated with them:
+	<ul class="ul">
+			<li> Width and height: Set the size of the screen that displays the video.</li>
+			<li>Controls: Adds play, pause and volume control.</li>
+			<li>Source src: Sets the URL of the video to play.</li>
+			<li>Type: Specifies different video formats.</li>
+		</ul>
+</p>
+	<p><pre>&lt;video width="320" height="240" controls&gt; &lt;source src="video-url.mp4" type="video/mp4"&gt; &lt;/video&gt;</pre></p>
+</div>	
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>Ordered and Unordered Lists</h4>
+	<p class="height">An ordered list is simply a list that is numbered:
+List's are opened with an opening tag, &lt;ol&gt;, each individual item is wrapped with &lt;li&gt; and &lt;/li&gt; tags, and then the list is closed with another &lt;/ol&gt; tag: 
+</p>
+<p><pre>&lt;ol&gt;
+		     	&lt;li&gt;First List Item&lt;/li&gt;
+			 &lt;li&gt;Second List Item&lt;/li&gt;
+			&lt;li&gt;Third List Item&lt;/li&gt;
+&lt;/ol&gt;</pre></p>
+<p class="height">An unordered list contains bullet points rather than numbers. To make an unordered list you use &lt;ul&gt;&lt;/ul&gt; in place of &lt;ol&gt;&lt;/ol&gt;.</p>
+</div>	
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>Div Tags</h4>
+	<p class="height">The  &lt;div&gt; &lt;/div&gt; ('division') tag allows you to divide your webpage into different containers and sections.
+</p>
+	<p><pre>&lt;div&gt; &lt;/div&gt;</pre></p>
+</div>	
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>Nesting Tags</h4>
+	<p class="height">Placing one HTML tag into another is called <strong>nesting</strong>. You simply place one link inside another as follows. For example; to make a picture take you to a site, you insert the Image tag inside the Hyperlink tag as follows:
+</p>
+	<p><pre>&lt;a href="https://www.codecademy.com/"&gt; &lt;img src="https://imageURL"/&gt; &lt;/a&gt;</pre></p>
+</div>	
+
+<div class="space"></div>
+
+<div class="info">
+	<h4>Parent-Child Relationships</h4>
+	<p class="height">In an HTML nesting parent/child relationship; Web developers refer to the enclosing element as the parent element and the enclosed elements as children. We will discuss this relationship more when we talk about <a href="indexcss.html">CSS</a></p>
+<div class="img">
+	<img src="untitled folder/images/img/ul.jpg" width="" height="200" alt=""/>
+	</div>
+</div>
+
+
+<div class="space"></div>
+<footer class="footer">
+	<div class="container">
+	<div class="row copyright">
+		<p>Copyright - All Rights Reserved</p>
+		</div>
+	</div>
+</footer>
+<!-- Latest compiled and minified JavaScript -->
+<script src="ICS3U/js/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

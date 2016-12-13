@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+.navbar.navbar-default.navbar-fixed-top.navbar-inverse {
+	background: #1275FB;
+}
+.title {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+#purple {
+	color: rgb(128,0,128);
+}
+
+#red {
+	color: #FF0000;
+}
+
+.title:hover {
+	color: #999;
+}
+.dropdown ul li a:hover {
+	background: #b9fcf9;
+}
+.nav.navbar-nav.navbar-right li a:focus {
+	background: #12bfe3;
+}
+.nav.navbar-nav.navbar-right li a:active {
+	background: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+	background: #f1BA0A;
+}
+.heading {
+	text-align: center;
+	padding: 20px, 0;
+}
+.img-circle {
+	width:50px;
+}
+.call-to-action {
+	border:1px solid #DFDFDF;
+	padding: 10px;
+	
+
+}
+.one {
+	color: #2E0C0C;
+	padding-bottom: 17px;
+}
+.two {
+	color: #F4292C;
+}
+.three {
+	color: #20450E;
+	padding-bottom: 17px;
+}
+
+.important {
+	text-align: justify;
+	font-size: px;
+	padding-bottom: 10px;
+	
+}
+
+.height {
+	text-align: justify;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+.space {
+	margin-top: 50px;
+}
+.info {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.footer {
+	background: #1275bf;
+	padding: 20px, 0;
+}
+.copyright {
+	text-align: center;
+	color: #fff;
+}
+
+.color-box {
+	border: 1px solid #DFDFDF;
+	padding: 10px;
+	height: 300px;
+	width: 470px;
+	float: left;
+}
+
+.other-box {
+	border: 1px solid #DFDFDF;
+	padding: 10px;
+	height: 300px;
+	width: 470px;
+	float: right;
+}
+
+
+#border {
+	border: 2px red solid;
+}
+
+#font {
+	font-family: papyrus;
+}
+
+#size {
+	font-size: 20px;
+}
+
+#ball {
+	border: 1px solid #DFDFDF;
+	color: aqua;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.none {
+	text-decoration: none;
+	text-decoration-color: #fff;
+}
+
+.ul {
+	text-align: left;
+	font-size: 13px;
+}
+
+
+@media screen and (max-width:320px) {
+	.carousel-caption {
+		display:none;
+	}
+	.call-to-action {
+		margin-bottom: 10px;
+	}
+}
+
+
+@media screen and (min-width:321px) and (max-width:360px) {
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.call-to-action {
+		margin-bottom: 10px;
+	}
+}

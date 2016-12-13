@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="veiwport" content="width-device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="untitled folder/style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+	<script
+src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script
+src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->	
+
+
+<title>WEB DEVELOPMENT</title>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+</head>
+
+<body style="padding-top: 50px">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	<a class="navbar-brand" href="#"><span class="title">ICS3U</span></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+     
+      <ul class="nav navbar-nav navbar-right">
+		  <li clas="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index2.html">Bootstrap</a></li>
+            <li><a href="index3.html">The Command Line</a></li>
+            <li><a href="index4.html">Hosts and Editors</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="index5.html">Launching a Website</a></li>
+          </ul>
+        </li>
+		  <li><a href="index6.html">Project Info</a></li>
+		  <li><a href="index7.html">Maya Hinds</a></li>
+     
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<h2 class="heading">jQUERY</h2>
+<div class="info">
+		<p class="height">Originally released in January 2006 by John Resig; jQUERY is arguably the most well known Javascript Library. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code. jQuery also simplifies a lot of the complicated things from JavaScript, like Event-handling and DOM transversing and manipulation.</p>
+		<p class="height"></p>
+		<div class="img">
+	<img src="untitled folder/images/img/jqueryintro.jpg" width="500" height="300" alt=""/>
+	</div>
+</div>
+
+
+<h4 class="heading">Downloading jQUERY</h4>
+<div class="info">
+		<p class="height">Just like we need a &lt;link&gt; tag to connect our HTML and CSS, we need a &lt;script&gt; tag to connect our HTML and jQuery. The tag looks like this:
+			<p><pre> &lt;script type="text/javascript" src="script.js"&gt; &lt;/script&gt; </pre></p></p>
+</div>
+
+<div class="space"></div>
+
+<h4 class="heading">jQuery Variables</h4>
+<div class="info">
+                <p class="height">Like containers; Variables are a place for us to store information for use at a later time. Variables can hold any type of information you work with. A single = sign is used to assign values. For instance, in jQuery, you can write:
+<p><pre>var lucky = 7;
+var name = "Codecademy";
+var $p = $('p');</pre></p></p>
+</div>
+<div class="space"></div>
+
+<h4 class="heading">jQuery Syntax</h4>
+<div class="info">
+		<p class="height">jQuery starts up like this:
+		<p><pre>$(document).ready(function);</pre></p>
+			<ul class="ul">
+			<li>$() turns the document into a jQuery object</li>
+			<li>Putting document between the parentheses tells us that we are working on that HTML document.</li>
+			<li>.ready(); is a function, or basic action, in jQuery. It will run the code inside its parentheses as soon as the HTML document is ready.</li>
+			<li>function(){} is the action that .ready() will perform as soon as the HTML document is loaded.</li>
+			<li>.ready(); ends with a semicolon. This tells jQuery that you're done giving it a command.</li>
+		</ul></p>
+</div>
+		
+				
+<div class="space"></div>
+
+		
+<h4 class="heading">jQuery Selectors</h4>
+<div class="info">
+	<p class="height">jQuery selectors allow you to select and manipulate HTML element(s). jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, etc. The element name passed to jQuery as identical to the CSS element, only wrapped in quotes. All selectors in jQuery start with the dollar sign and parentheses: $().
+	<p><pre> $("p") Selects elements based on element name
+	$(".class") Selects elements based on Class
+	$("#test") Selects elements based on ID
+	$("p.intro") Selects all &lt;p&gt; elements with class="intro"</pre></p></p>
+</div>		
+		
+<div class="space"></div>
+	
+<h4 class="heading">jQuery Events</h4>
+<div class="info">
+	<p class="height">Events are all the different visitor's actions that a web page can respond to. Some common events include:
+	<div class="img">
+	<img src="untitled folder/images/img/events.jpg" width="468" height="168" alt=""/>
+	</div>
+	<div class="space"></div>
+	To assign a click event to all paragraphs on a page, you can do this:
+	<p><pre> $("p").click();</pre></p>
+	The next step is to define what should happen when the event fires. You must pass a function to the event:
+	<p><pre> $("p").click(function(){
+  // action goes here
+});</pre></p>
+	</p>
+</div>	
+		
+<div class="space"></div>
+		
+<h4 class="heading">jQuery Effects</h4>
+<div class="info">
+<p><pre>$(document).ready(function() {
+    $('thingToTouch').event(function() {
+        $('thingToAffect').effect();    
+        });
+});</pre></p>
+	<p class="height">The .effect() is the thing that will happen to the selected HTML element. The things that go in the bracket are the conditions of the effect (ex. the time it takes to complete effect.) Effects include:
+<p><pre>$(selector).hide(speed,callback);	Hides selected element.
+$(selector).show(speed,callback);	Shows selected element.
+   	   $(selector).toggle(speed,callback);	Allows you to toggle between methods.
+ $(selector).fadeIn(speed,callback);	Fades in selected element
+       $(selector).fadeOut(speed,callback);  	   Fades out selected element
+	  	  $(selector).fadeTo(speed,opacity,callback);  	Fades element to specified opacity
+	  $(selector).slideDown/Up(speed,callback);	Slides element up or down 
+	  	 $(selector).animate({params},speed,callback);	Lets you create custom animations</pre></p></p>
+</div>	
+
+<div class="space"></div>
+		
+<h4 class="heading">jQuery DOM Manipulation</h4>
+<div class="info">
+	<p class="height">DOM stands for Document Object Model. The DOM consists of every element on the page, laid out in a hierarchical way that reflects the way the HTML document is ordered. jQuery allows developers to easily traverse the contents of the DOM in order to find the nodes, elements, or values they're aiming to retrieve.</p>
+	<div class="img">
+	<img src="untitled folder/images/img/dom_tree.jpg" width="600" height="313" alt=""/>
+	</div>
+	<div class="space"></div>
+	<p class="height">jQuery also allows us to manipulate the DOM without having to find each element in our html file. For example you can add and remove classes from HTML elements using:</p>
+	<p><pre> $(selector).addClass('classname'); Allows you to add a class
+$(selector).removeClass('classname'); Allows you to remove a class</pre></p>
+</div>
+		
+<div class="space"></div>
+		
+<div class="space"></div>
+
+
+<footer class="footer">
+	<div class="container">
+	<div class="row copyright">
+		<p>Copyright - All Rights Reserved</p>
+	  </div>
+  </div>
+</footer>
+<!-- Latest compiled and minified JavaScript -->
+<script src="ICS3U/js/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>
